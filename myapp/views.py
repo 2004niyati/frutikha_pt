@@ -152,7 +152,7 @@ def fpass(request):
 
             url = "https://www.fast2sms.com/dev/bulkV2"
 
-            querystring = {"authorization": "WixHIUmdXbJ9ag4cPprFhj58N7VGMAfsOS6RnlYDCvwuZz0otyaKUERMxg5vjuCwyercBPtdkN1307HG", "variables_values": str(otp), "route": "otp", "numbers": mobile}
+            querystring = {"authorization": "", "variables_values": str(otp), "route": "otp", "numbers": mobile}
            
             headers = {'cache-control': "no-cache"}
 
